@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fx:id="img" fitHeight="280.0" fitWidth="300.0" layoutX="210.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="btn" layoutX="235.0" layoutY="420.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="250.0" text="Определить">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <TextField fx:id="href" layoutX="85.0" layoutY="360.0" prefHeight="25.0" prefWidth="550.0" promptText="Всобачьте ссылку на определяемую личность" />
+      <Label layoutX="34.0" layoutY="187.0" text="Знаменитость" textFill="#757575">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="person" layoutX="14.0" layoutY="221.0" prefHeight="25.0" prefWidth="200.0">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="562.0" layoutY="187.0" text="Вероятность" textFill="#003cff">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="value" layoutX="562.0" layoutY="221.0" prefHeight="25.0" prefWidth="150.0" textFill="#00caff">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="604.0" layoutY="478.0" text="Powered by Dmitry" textFill="#e4e4e4" />
+      <Label layoutX="14.0" layoutY="478.0" text="Version: 2.0" textFill="#dddddd">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
